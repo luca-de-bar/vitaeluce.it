@@ -8,6 +8,9 @@ const verses = [
     {title: "Luca 12:24", text: "Osservate i corvi: non seminano, non mietono, non hanno dispensa né granaio, eppure Dio li nutre. E voi, quanto più degli uccelli valete!"},
     {title: "Romani 11:36", text: "Perché da lui, per mezzo di lui e per lui sono tutte le cose. A lui sia la gloria in eterno. Amen."},
     {title: "Efesini 4:26-27", text: "Adiratevi e non peccate; il sole non tramonti sopra la vostra ira e non fate posto al diavolo."},
+    {title:"Salmi 90:12", text: "Insegnaci dunque a contare bene i nostri giorni, per acquistare un cuore saggio."},
+    {title:"Proverbi 16:9", text: "Il cuore dell'uomo medita la sua via, ma il Signore dirige i suoi passi."},
+    {title:"Proverbi 16:4", text:"Il Signore ha fatto ogni cosa per uno scopo; anche l'empio, per il giorno della sventura."},
   ];
   
   function populateCarousel(verses) {
