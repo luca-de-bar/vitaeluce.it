@@ -415,25 +415,32 @@ document.addEventListener('DOMContentLoaded', function() {
         // Raccoglie i dati dal form
         const formData = new FormData(form);
 
-        // Invia i dati usando fetch
-        fetch('https://formspree.io/f/mdorywra', {
-            method: 'POST',
-            body: formData,
-            headers: {
-                'Accept': 'application/json'
-            }
-        })
-        .then(response => response.json())
-        .then(data => {
-            if (data.ok) {
-                // Mostra il messaggio di successo
-                alert('La tua richiesta è stata inviata! pregheremo per te');
-                // Svuota i campi del form
-                form.reset();
-            } else {
-                alert('Si è verificato un errore, hai eseguito la verifica?');
-            }
-        })
+// Invia i dati usando fetch
+fetch('https://formspree.io/f/mdorywra', {
+    method: 'POST',
+    body: formData,
+    headers: {
+        'Accept': 'application/json'
+    }
+})
+.then(response => {
+    console.log("Risposta HTTP:", response);
+    return response.json();  // Trasforma la risposta HTTP in un oggetto JSON
+})
+.then(data => {
+    console.log("Dati JSON:", data);  // Visualizza i dati JSON nel console
+    if (data.ok) {
+        // Mostra il messaggio di successo
+        alert('La tua richiesta è stata inviata! pregheremo per te');
+        // Svuota i campi del form
+        form.reset();
+    } else {
+        alert('Si è verificato un errore, hai eseguito la verifica?');
+    }
+})
+.catch((error) => {
+    alert('Si è verificato un errore, riprova');
+});
     });
 });
 
@@ -447,6 +454,8 @@ function recaptchaCallback() {
 window.onload = function() {
   document.querySelector("button[type='submit']").disabled = true;
 }
+
+
 
 
     </script>
