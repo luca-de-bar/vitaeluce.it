@@ -294,36 +294,40 @@
                 <span class="special-title">Chiedi la nostra preghiera</span>
                 <p class="bigger">In questa pagina avete la possibilità di condividere i vostri bisogni e le vostre preoccupazioni con la comunità di Vita e Luce. Tutte le richieste di preghiera inviate saranno trattate con la massima riservatezza e rispetto. Vi chiediamo di condividere solo ciò che sentite di condividere, senza vergogna o timore. Siamo qui per sostenervi e per pregare per voi.</p>
             </div>
+    </div>
+    </div>
     <!-- Section Title End -->
 
-    <!-- Contact Form Section Start -->
-    <div class="section section-padding pt-0">
-        <div class="container">
-            <!-- Section Title Start -->
-            <div class="section-title2 text-center">
-                <h2 class="title">Invia la tua richiesta</h2>
-            </div>
-            <!-- Section Title End -->
+<!-- Contact Form Section Start -->
+<div class="section section-padding pt-0">
+    <div class="container">
+        <!-- Section Title Start -->
+        <div class="section-title2 text-center">
+            <h2 class="title">Invia la tua richiesta</h2>
+        </div>
+        <!-- Section Title End -->
 
-            <div class="row">
-                <div class="col-lg-8 col-12 mx-auto">
-                    <div class="contact-form">
-                        <form action="assets/php/contact-mail.php" id="contact-form" method="post">
-                            <div class="row learts-mb-n30">
-                                <div class="col-12 learts-mb-30"><input type="text" placeholder="Il Tuo Nome" name="name"></div>
-                                <div class="col-12 learts-mb-30"><textarea name="message" placeholder="La tua richiesta"></textarea></div>
-                                <div class="col-12 text-center learts-mb-30"><button class="btn btn-dark btn-outline-hover-dark">Invia</button></div>
-                            </div>
-                        </form>
-                        <p class="form-messege"></p>
-                    </div>
+        <div class="row">
+            <div class="col-lg-8 col-12 mx-auto">
+                <div class="contact-form">
+                    <!-- Ho mantenuto il tuo URL Formspree -->
+                    <form action="https://formspree.io/f/mdorywra" id="contact-form" method="post">
+                        <div class="row learts-mb-n30">
+                            <!-- Aggiunto l'attributo 'required' -->
+                            <div class="col-12 learts-mb-30"><input type="text" placeholder="Il Tuo Nome" name="name" required></div>
+                            <!-- Aggiunto l'attributo 'required' -->
+                            <div class="col-12 learts-mb-30"><textarea name="message" placeholder="La tua richiesta" required></textarea></div>
+                            <!-- Campo nascosto per impostare l'oggetto dell'email -->
+                            <input type="hidden" name="_subject" value="Nuova richiesta di preghiera!">
+                            <div class="col-12 text-center learts-mb-30"><button class="btn btn-dark btn-outline-hover-dark" type="submit">Invia</button></div>
+                        </div>
+                    </form>
+                    <p class="form-messege"></p>
                 </div>
             </div>
-
         </div>
     </div>
-    </div>
-    </div>
+</div>
 
     <footer>
         <div class="footer2-section section section-padding">
@@ -343,7 +347,6 @@
                             <li> <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/">Youtube</a></li>
                         </ul>
                     </div>
-    
                 </div>
             </div>
         </div>
@@ -400,7 +403,41 @@
   window.history.replaceState({}, '', updatedUrl);
 }
 
-    </script>  
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contact-form');
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault(); // Evita il comportamento di invio predefinito
+
+        // Raccoglie i dati dal form
+        const formData = new FormData(form);
+
+        // Invia i dati usando fetch
+        fetch('https://formspree.io/f/mdorywra', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.ok) {
+                // Mostra il messaggio di successo
+                alert('La tua richiesta è stata inviata! pregheremo per te');
+                // Svuota i campi del form
+                form.reset();
+            } else {
+                alert('Si è verificato un errore, riprova.');
+            }
+        })
+        .catch((error) => {
+            alert('Si è verificato un errore, riprova.');
+        });
+    });
+});
+
+    </script>
 
 </body>
 
