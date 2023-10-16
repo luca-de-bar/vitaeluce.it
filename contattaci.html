@@ -321,7 +321,7 @@
                             <!-- Campo nascosto per impostare l'oggetto dell'email -->
                             <input type="hidden" name="_subject" value="Nuova richiesta di preghiera!">
                              <!-- Widget reCAPTCHA -->
-                             <div class="g-recaptcha" data-sitekey="6LfKeaYoAAAAAPgbplQoeo7TA1W13Liqrb7415Im"></div>
+                             <div class="g-recaptcha" data-sitekey="6LfKeaYoAAAAAPgbplQoeo7TA1W13Liqrb7415Im" data-callback="recaptchaCallback"></div>
                             <div class="col-12 text-center learts-mb-30"><button class="btn btn-dark btn-outline-hover-dark" type="submit">Invia</button></div>
                         </div>
                     </form>
@@ -431,14 +431,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Svuota i campi del form
                 form.reset();
             } else {
-                alert('Si è verificato un errore, riprova.');
+                alert('Si è verificato un errore, hai eseguito la verifica?');
             }
         })
         .catch((error) => {
-            alert('Si è verificato un errore, riprova.');
+            alert('Si è verificato un errore, hai eseguito la verifica?');
         });
     });
 });
+
+// Quando il reCAPTCHA viene completato con successo, questa funzione viene chiamata
+function recaptchaCallback() {
+  // Abilita il pulsante "Invia"
+  document.querySelector("button[type='submit']").disabled = false;
+}
+
+// Quando la pagina viene caricata, disabilita il pulsante "Invia"
+window.onload = function() {
+  document.querySelector("button[type='submit']").disabled = true;
+}
+
 
     </script>
 
