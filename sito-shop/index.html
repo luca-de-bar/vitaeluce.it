@@ -75,6 +75,9 @@
                 <!-- Header Tools Start -->
                 <div class="col-auto">
                     <div class="header-tools justify-content-end">
+                        <div class="header-cart">
+                            <a href="#offcanvas-cart" class="offcanvas-toggle"><span class="cart-count">1</span><i class="fal fa-shopping-cart"></i></a>
+                        </div>
                     </div>
                 </div>
                 <!-- Header Tools End -->
@@ -105,6 +108,9 @@
                 <!-- Header Tools Start -->
                 <div class="col-auto">
                     <div class="header-tools justify-content-end">
+                        <div class="header-cart">
+                            <a href="#offcanvas-cart" class="offcanvas-toggle"><span class="cart-count">1</span><i class="fal fa-shopping-cart"></i></a>
+                        </div>
                         <div class="mobile-menu-toggle d-xl-none">
                             <a href="#" class="offcanvas-toggle">
                                 <svg viewBox="0 0 800 600">
@@ -138,6 +144,9 @@
                 <!-- Header Tools Start -->
                 <div class="col-auto">
                     <div class="header-tools justify-content-end">
+                        <div class="header-cart">
+                            <a href="#offcanvas-cart" class="offcanvas-toggle"><span class="cart-count">1</span><i class="fal fa-shopping-cart"></i></a>
+                        </div>
                         <div class="mobile-menu-toggle">
                             <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
                                 <svg viewBox="0 0 800 600">
@@ -172,6 +181,9 @@
                 <!-- Header Tools Start -->
                 <div class="col-auto">
                     <div class="header-tools justify-content-end">
+                        <div class="header-cart">
+                            <a href="#offcanvas-cart" class="offcanvas-toggle"><span class="cart-count">1</span><i class="fal fa-shopping-cart"></i></a>
+                        </div>
                         <div class="mobile-menu-toggle">
                             <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
                                 <svg viewBox="0 0 800 600">
@@ -189,13 +201,45 @@
         </div>
     </div>
 
+    <!-- OffCanvas Cart Start -->
+    <div id="offcanvas-cart" class="offcanvas offcanvas-cart">
+        <div class="inner">
+            <div class="head">
+                <span class="title">Carrello</span>
+                <button class="offcanvas-close">×</button>
+            </div>
+            <div class="body customScroll">
+                <ul class="minicart-product-list">
+                    <li>
+                        <div class="content">
+                            <a href="shop-details.html" class="title">CD Luce e Vita</a>
+                            <span class="quantity-price">1 x <span class="amount">€14.00</span></span>
+                            <a href="#" class="remove">×</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot">
+                <div class="sub-total">
+                    <strong>Totale :</strong>
+                    <span class="amount">€14.00</span>
+                </div>
+                <div class="buttons">
+                    <a href="carrello.html" class="btn btn-dark btn-hover-primary">Vedi Carrello</a>
+                    <a href="https://buy.stripe.com/test_bIY9BL7bza0Ya7CaEH" class="btn btn-outline-dark">Ordina</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- OffCanvas Cart End -->
+
     <!-- OffCanvas Search Start -->
     <div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
         <div class="inner customScroll">
             <div class="offcanvas-menu">
                 <ul>
                     <li class="home"><a href="index.html"><span class="menu-text">Home</span></a>
-                    <li class="shop"><a href="spoiler.html"><span class="menu-text">CD Nuovi</span></a>
+                    <li class="shop"><a href="shop.html"><span class="menu-text">CD Nuovi</span></a>
                     <li class="Scuola"><a href="404.html"><span class="menu-text">Scuola Domenicale</span></a>
                     <li class="uniti"><a href="unitiancheselontani.html"><span class="menu-text">#unitiancheselontani</span></a>
                     <li class="preghiera"><a href="contattaci.html"><span class="menu-text">Richieste</span></a>
@@ -203,10 +247,14 @@
             </div>
             <div class="offcanvas-buttons">
                 <div class="header-tools">
+                    <div class="header-cart">
+                        <a href="carrello.html"><span class="cart-count">1</span><i class="fal fa-shopping-cart"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="offcanvas-social">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
@@ -342,6 +390,14 @@
             </div>
         <!-- Testimonial Section End -->
 
+
+                    <div class="container pb-0 pt-5">
+                        <div class="sale-banner3">
+                            <h3>Sei in cerca dei nostri CD?</h3>
+                         <a href="shop.html" class="link">NUOVI CD</a>
+                        </div>
+                    </div>
+
             <div id="instafeed" class="instafeed instafeed-carousel instafeed-carousel1">
             </div>
 
@@ -361,6 +417,7 @@
                 </div>
                 <div class="col-lg-2 learts-mb-40">
                     <ul class="widget-list">
+                        <li> <i class="fab fa-twitter"></i> <a href="https://www.twitter.com/">Twitter</a></li>
                         <li> <i class="fab fa-facebook-f"></i> <a href="https://www.facebook.com/">Facebook</a></li>
                         <li> <i class="fab fa-instagram"></i> <a href="https://www.instagram.com/">Instagram</a></li>
                         <li> <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/">Youtube</a></li>
@@ -373,7 +430,7 @@
 
     <div class="footer2-copyright section">
         <div class="container">
-            <p class="copyright text-center">&copy; 2023 | Made with <i class="far fa-heart"></i> in Verona</p>
+            <p class="copyright text-center">&copy; 2024 Made with <i class="far fa-heart"></i> in Verona</p>
         </div>
     </div>
 </footer>
