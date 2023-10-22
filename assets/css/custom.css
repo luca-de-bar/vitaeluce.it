@@ -20,7 +20,7 @@
 
 .home-p a
 {
-    color: #72a499;
+    color: #1190CB;
     text-decoration: underline;
 }
 
@@ -34,6 +34,10 @@
 {
     display: block !important;
     background-color: #bdbdbd75;
+}
+
+strong,a{
+    color: #1190CB;
 }
 
 /* MEDIA SLIDER CAPTION */
@@ -193,7 +197,7 @@
     line-height: 1.25;
     display: block;
     margin-bottom: 5px;
-    color: #72a499;
+    color: #1190CB;
 }
 
 .bigger
