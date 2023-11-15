@@ -1,0 +1,206 @@
+/* SLIDER */
+
+.carousel-item 
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 450px;
+}
+
+#carouselExampleCaptions 
+{
+    max-height: 0px;
+}
+
+.home-p
+{
+    font-size: 20px !important;
+}
+
+.home-p a
+{
+    color: #1190CB;
+    text-decoration: underline;
+}
+
+.home-p a:hover
+{
+    text-decoration: underline;
+}
+
+/* SLIDER CAPTION */
+.d-md-block
+{
+    display: block !important;
+    background-color: #bdbdbd75;
+}
+
+strong,a{
+    color: #1190CB;
+}
+
+/* MEDIA SLIDER CAPTION */
+
+@media only screen and (min-width:768px)
+{
+    .d-md-block > p 
+    {
+        font-size: 20px !important;
+    }
+}
+
+
+@media only screen and (min-width:1200px)
+{
+    .d-md-block > p
+    {
+        font-size: 25px !important;
+    }
+}
+
+
+@media only screen and (max-width:479px)
+{
+    .carousel-item 
+    {
+        min-height: 400px;
+    }
+
+    .section-padding
+    {
+        padding-top: 20px !important;
+    }
+}
+
+/* HOME IMG MOBILE VIEW */
+@media only screen and (max-width:767px)
+{
+    .category-banner-2
+    {
+        display: none;
+    }
+
+    .home-p
+    {
+        font-size: 22px;
+        font-weight: 350;
+        line-height: 26px;
+    }
+
+    .home-p a
+    {
+        font-weight: lighter;
+    }
+
+    .category-banner-1
+    {
+        max-width: fit-content;
+    }
+
+    #carouselExampleCaptions > div:nth-child(2) > div.container > div > div:nth-child(2)
+    {
+        max-width: fit-content;
+    }
+
+    .image
+    {
+        max-width: fit-content;
+    }
+
+}
+/* SHOP */
+
+.page-title-section
+{
+    background-position: 50% 50%;
+}
+
+
+
+/* SCUOLA DOMENICALE */
+
+.portfolio .sc-card
+{
+    text-align: center !important;
+    position: relative !important;
+}
+.portfolio .play-btn
+{
+    opacity: 1 !important;
+    padding: 0% !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+
+/* MEDIA SC-CARD */
+@media only screen and (min-width:993px) and (max-width:1130px)
+{
+    .sc-card
+    {
+        max-width: 270px;
+        max-height: 220px;
+    }
+
+}
+
+@media only screen and (min-width:576px) and (max-width:767px)
+{
+    .sc-card
+    {
+        max-width: 230px;
+        max-height: 190px;
+        box-shadow: 8px 8px 8px #bebebe !important;
+    }
+
+}
+
+
+@media only screen and (min-width:1400px) and (max-width:1460px)
+{
+    .sc-card
+    {
+        max-width: 270px;
+        max-height: 220px;
+        box-shadow: 8px 8px 8px #bebebe !important;
+    }
+
+}
+
+
+
+.sc-card
+{
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 10px #bebebe;
+}
+
+
+.row
+{
+    text-align: center;
+    align-items: center;
+}
+
+/* RICHIESTE */
+
+.special-title {
+    font-family: "Modesty";
+    font-size: 56px;
+    line-height: 1.25;
+    display: block;
+    margin-bottom: 5px;
+    color: #1190CB;
+}
+
+.bigger
+{
+    font-size: 20px !important;
+}
