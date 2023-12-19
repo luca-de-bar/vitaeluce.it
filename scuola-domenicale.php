@@ -67,7 +67,7 @@
                     <div class="page-title">
                         <h1 class="title">Scuola Domenicale</h1>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                             <li class="breadcrumb-item active">scuola-domenicale</li>
                         </ul>
                     </div>
@@ -414,8 +414,8 @@
     <script src="assets/js/main.js"></script>
     <!--
     <script>
-        if (window.location.href.indexOf('.html') > -1) {
-  var updatedUrl = window.location.href.replace(/\.html/, '');
+        if (window.location.href.indexOf('.php') > -1) {
+  var updatedUrl = window.location.href.replace(/\.php/, '');
   window.history.replaceState({}, '', updatedUrl);
 }
 

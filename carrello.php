@@ -67,7 +67,7 @@
                     <div class="page-title">
                         <h1 class="title">Carrello</h1>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                             <li class="breadcrumb-item active">Carrello</li>
                         </ul>
                     </div>
@@ -94,8 +94,8 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="thumbnail"><a href="shop-details.html"><img src="assets/images/product/cart-product-1.webp" alt="cart-product-1"></a></td>
-                            <td class="name"> <a href="shop-details.html">CD Vita e Luce</a></td>
+                            <td class="thumbnail"><a href="shop-details.php"><img src="assets/images/product/cart-product-1.webp" alt="cart-product-1"></a></td>
+                            <td class="name"> <a href="shop-details.php">CD Vita e Luce</a></td>
                             <td class="price"><span>€14.00</span></td>
                             <td class="quantity">
                                 <div class="product-quantity">
@@ -117,7 +117,7 @@
                         </div>
                     </div>
                     <div class="col-auto">
-                        <a class="btn btn-light btn-hover-dark mr-3 mb-3" href="spoiler.html">Continua a comprare</a>
+                        <a class="btn btn-light btn-hover-dark mr-3 mb-3" href="spoiler.php">Continua a comprare</a>
                     </div>
                 </div>
             </form>
@@ -180,8 +180,8 @@
     <script src="assets/js/main.js"></script>
     <!--
     <script>
-        if (window.location.href.indexOf('.html') > -1) {
-  var updatedUrl = window.location.href.replace(/\.html/, '');
+        if (window.location.href.indexOf('.php') > -1) {
+  var updatedUrl = window.location.href.replace(/\.php/, '');
   window.history.replaceState({}, '', updatedUrl);
 }
 

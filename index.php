@@ -93,7 +93,7 @@
                     <div class="about-us">
                         <div class="inner">
                             <span class="special-title">Ci presentiamo...</span>
-                            <p class="home-p">Il progetto Vita e Luce nasce dalla volontà di stimolare la fede dei credenti attraverso CD musicali, lezioni della scuola domenicale e richieste di preghiera. Comprendiamo l'importanza di condividere la parola di Dio e siamo pronti ed entusiasti di essere i tuoi portatori di questa meraviglia. <strong><em><a href="scopridipiu.html">Scopri di piu'</a></em></strong></p>
+                            <p class="home-p">Il progetto Vita e Luce nasce dalla volontà di stimolare la fede dei credenti attraverso CD musicali, lezioni della scuola domenicale e richieste di preghiera. Comprendiamo l'importanza di condividere la parola di Dio e siamo pronti ed entusiasti di essere i tuoi portatori di questa meraviglia. <strong><em><a href="scopridipiu.php">Scopri di piu'</a></em></strong></p>
                         </div>
                     </div>
                 </div>
@@ -240,8 +240,8 @@
     <!--
     <!--
     <script>
-        if (window.location.href.indexOf('.html') > -1) {
-  var updatedUrl = window.location.href.replace(/\.html/, '');
+        if (window.location.href.indexOf('.php') > -1) {
+  var updatedUrl = window.location.href.replace(/\.php/, '');
   window.history.replaceState({}, '', updatedUrl);
 }
 

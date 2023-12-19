@@ -66,7 +66,7 @@
                 <h1 class="title mb-5">Ci hai scoperto!</h1>
                 <p style="font-size: 20px;">Prossimamente, in questa sezione saranno disponibili i <strong>CD della missione Vita e Luce</strong>..ritorna su questa sezione tra un po'!</p>
                 <div class="buttons">
-                    <a class="btn btn-primary btn-outline-hover-dark" href="index.html">Torna al sito!</a>
+                    <a class="btn btn-primary btn-outline-hover-dark" href="index.php">Torna al sito!</a>
                 </div>
             </div>
         </div>
@@ -116,8 +116,8 @@
     <script src="assets/js/main.js"></script>
     <!--
     <script>
-        if (window.location.href.indexOf('.html') > -1) {
-  var updatedUrl = window.location.href.replace(/\.html/, '');
+        if (window.location.href.indexOf('.php') > -1) {
+  var updatedUrl = window.location.href.replace(/\.php/, '');
   window.history.replaceState({}, '', updatedUrl);
 }
 

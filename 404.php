@@ -112,8 +112,8 @@
     <script src="assets/js/main.js"></script>
     <!--
     <script>
-        if (window.location.href.indexOf('.html') > -1) {
-  var updatedUrl = window.location.href.replace(/\.html/, '');
+        if (window.location.href.indexOf('.php') > -1) {
+  var updatedUrl = window.location.href.replace(/\.php/, '');
   window.history.replaceState({}, '', updatedUrl);
 }
 

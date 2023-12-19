@@ -69,21 +69,21 @@
                 <ul class="minicart-product-list">
                     <li>
                         <div class="content">
-                            <a href="shop-details.html" class="title">CD Luce e Vita</a>
+                            <a href="shop-details.php" class="title">CD Luce e Vita</a>
                             <span class="quantity-price">1 x <span class="amount">€14.00</span></span>
                             <a href="#" class="remove">×</a>
                         </div>
                     </li>
                     <li>
                         <div class="content">
-                            <a href="shop-details.html" class="title">CD Luce e Vita</a>
+                            <a href="shop-details.php" class="title">CD Luce e Vita</a>
                             <span class="quantity-price">1 x <span class="amount">€14.00</span></span>
                             <a href="#" class="remove">×</a>
                         </div>
                     </li>
                     <li>
                         <div class="content">
-                            <a href="shop-details.html" class="title">CD Luce e Vita</a>
+                            <a href="shop-details.php" class="title">CD Luce e Vita</a>
                             <span class="quantity-price">1 x <span class="amount">€14.00</span></span>
                             <a href="#" class="remove">×</a>
                         </div>
@@ -96,7 +96,7 @@
                     <span class="amount">€144.00</span>
                 </div>
                 <div class="buttons">
-                    <a href="carrello.html" class="btn btn-dark btn-hover-primary">Vedi Carrello</a>
+                    <a href="carrello.php" class="btn btn-dark btn-hover-primary">Vedi Carrello</a>
                     <a href="https://buy.stripe.com/test_bIY9BL7bza0Ya7CaEH" class="btn btn-outline-dark">Ordina</a>
                 </div>
             </div>
@@ -109,17 +109,17 @@
         <div class="inner customScroll">
             <div class="offcanvas-menu">
                         <ul>
-                            <li class="Home"><a href="index.html"><span class="menu-text">Home</span></a></li>
-                            <li class="Chi Siamo"><a href="scopridipiu.html"><span class="menu-text">Chi Siamo</span></a></li>
-                            <li class="shop"><a href="spoiler.html"><span class="menu-text">CD Nuovi</span></a></li>
-                            <li class="uniti"><a href="unitiancheselontani.html"><span class="menu-text">#unitiancheselontani</span></a></li>
-                            <li class="preghiera"><a href="contattaci.html"><span class="menu-text">Richieste</span></a></li>
+                            <li class="Home"><a href="index.php"><span class="menu-text">Home</span></a></li>
+                            <li class="Chi Siamo"><a href="scopridipiu.php"><span class="menu-text">Chi Siamo</span></a></li>
+                            <li class="shop"><a href="spoiler.php"><span class="menu-text">CD Nuovi</span></a></li>
+                            <li class="uniti"><a href="unitiancheselontani.php"><span class="menu-text">#unitiancheselontani</span></a></li>
+                            <li class="preghiera"><a href="contattaci.php"><span class="menu-text">Richieste</span></a></li>
                         </ul>
             </div>
             <div class="offcanvas-buttons">
                 <div class="header-tools">
                     <div class="header-cart">
-                        <a href="carrello.html"><span class="cart-count">1</span><i class="fal fa-shopping-cart"></i></a>
+                        <a href="carrello.php"><span class="cart-count">1</span><i class="fal fa-shopping-cart"></i></a>
                     </div>
                 </div>
             </div>
@@ -358,8 +358,8 @@
     <script src="assets/js/main.js"></script>
     <!--
     <script>
-        if (window.location.href.indexOf('.html') > -1) {
-  var updatedUrl = window.location.href.replace(/\.html/, '');
+        if (window.location.href.indexOf('.php') > -1) {
+  var updatedUrl = window.location.href.replace(/\.php/, '');
   window.history.replaceState({}, '', updatedUrl);
 }
 
