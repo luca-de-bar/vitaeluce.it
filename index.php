@@ -93,7 +93,7 @@
                     <div class="about-us">
                         <div class="inner">
                             <span class="special-title">Ci presentiamo...</span>
-                            <p class="home-p">Il progetto Vita e Luce nasce dalla volontà di stimolare la fede dei credenti attraverso CD musicali, lezioni della scuola domenicale e richieste di preghiera. Comprendiamo l'importanza di condividere la parola di Dio e siamo pronti ed entusiasti di essere i tuoi portatori di questa meraviglia. <strong><em><a href="scopridipiu.php">Scopri di piu'</a></em></strong></p>
+                            <p class="home-p">Il progetto Vita e Luce nasce dalla volontà di stimolare la fede dei credenti attraverso CD musicali, lezioni della scuola domenicale e richieste di preghiera. Comprendiamo l'importanza di condividere la parola di Dio e siamo pronti ed entusiasti di essere i tuoi portatori di questa meraviglia. <strong><em><a href="chi-siamo.php">Scopri di piu'</a></em></strong></p>
                         </div>
                     </div>
                 </div>
