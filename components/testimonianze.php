@@ -15,7 +15,7 @@
                             <p>"Mentre pregavo avvertii un peso schiacciante dentro me: il peccato. E’ scritto infatti che “tutti hanno peccato e sono privi della gloria di Dio” (Romani 3:23) e per la prima volta compresi anche lo scopo per cui Gesù aveva così tanto patito quelle sofferenze sulla croce: affinché io e te fossimo liberi dal peccato per mezzo del Suo sacrificio perfetto."</p>
                             <div class="author">
                                 <div class="content">
-                                    <h6 class="name">Simone</h6>
+                                    <h6 class="name">Simona</h6>
                                 </div>
                          </div>
                         </div>
