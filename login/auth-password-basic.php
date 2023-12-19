@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Forgot Password - SB Admin Pro</title>
+        <title>Reset Password - Vita&Luce</title>
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
         <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" crossorigin="anonymous"></script>
@@ -21,9 +21,9 @@
                             <div class="col-lg-5">
                                 <!-- Basic forgot password form-->
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header justify-content-center"><h3 class="fw-light my-4">Password Recovery</h3></div>
+                                    <div class="card-header justify-content-center"><h3 class="fw-light my-4">Recupero password</h3></div>
                                     <div class="card-body">
-                                        <div class="small mb-3 text-muted">Enter your email address and we will send you a link to reset your password.</div>
+                                        <div class="small mb-3 text-muted">Inserisci il tuo indirizzo email e ti manderemo una mail per reimpostare la tua password.</div>
                                         <!-- Forgot password form-->
                                         <form>
                                             <!-- Form Group (email address)-->
@@ -33,8 +33,8 @@
                                             </div>
                                             <!-- Form Group (submit options)-->
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                <a class="small" href="auth-login-basic.html">Return to login</a>
-                                                <a class="btn btn-primary" href="auth-login-basic.html">Reset Password</a>
+                                                <a class="small" href="auth-login-basic.html">Ritorna al login</a>
+                                                <a class="btn btn-primary" href="auth-login-basic.html">Reset </a>
                                             </div>
                                         </form>
                                     </div>
