@@ -18,6 +18,7 @@
                             <li class="Home"><a href="/"><span class="menu-text">Home</span></a></li>
                             <li class="Chi Siamo"><a href="chi-siamo.php"><span class="menu-text">Chi Siamo</span></a></li>
                             <li class="shop"><a href="spoiler.php"><span class="menu-text">CD Nuovi</span></a></li>
+                            <li class="scuola"><a href="scuola-domenicale.php"><span class="menu-text">Scuola Domenicale</span></a></li>
                             <li class="uniti"><a href="unitiancheselontani.php"><span class="menu-text">#unitiancheselontani</span></a></li>
                             <li class="preghiera"><a href="richieste.php"><span class="menu-text">Richieste</span></a></li>
                         </ul>
@@ -150,6 +151,7 @@
                             <li class="Home"><a href="/"><span class="menu-text">Home</span></a></li>
                             <li class="Chi Siamo"><a href="chi-siamo.php"><span class="menu-text">Chi Siamo</span></a></li>
                             <li class="shop"><a href="spoiler.php"><span class="menu-text">CD Nuovi</span></a></li>
+                            <li class="scuola"><a href="scuola-domenicale.php"><span class="menu-text">Scuola Domenicale</span></a></li>
                             <li class="uniti"><a href="unitiancheselontani.php"><span class="menu-text">#unitiancheselontani</span></a></li>
                             <li class="preghiera"><a href="richieste.php"><span class="menu-text">Richieste</span></a></li>
                         </ul>
