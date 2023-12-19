@@ -57,7 +57,6 @@
 <body>
  
 
-    <?php include 'menu.php';?>
     
     <!-- Slider main container Start -->
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
