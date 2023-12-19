@@ -56,7 +56,6 @@
 <body>
  <div class="class"></div>
 
- <?php include 'components/menu.php'; ?>
 
 <!-- 404 Section Start -->
     <div class="section-404 section">
@@ -71,6 +70,8 @@
         </div>
     </div>
     <!-- 404 Section End -->
+
+<?php include 'components/footer.php'?>
     <!-- JS
 ============================================ -->
 
