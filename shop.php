@@ -52,7 +52,7 @@
 
 <body>
 
-<?php include 'menu.php';?>
+<?php include 'components/menu.php'; ?>
 
 
             </div>

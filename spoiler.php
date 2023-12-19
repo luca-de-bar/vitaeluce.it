@@ -56,7 +56,7 @@
 <body>
  
 
-<?php include 'menu.php';?>
+<?php include 'components/menu.php'; ?>
 
 
 <!-- 404 Section Start -->

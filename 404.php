@@ -56,7 +56,7 @@
 <body>
  <div class="class"></div>
 
- <?php include 'menu.php';?>
+ <?php include 'components/menu.php'; ?>
 
 <!-- 404 Section Start -->
     <div class="section-404 section">

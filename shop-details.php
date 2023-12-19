@@ -56,7 +56,7 @@
 <body>
  
 
-<?php include 'menu.php';?>
+<?php include 'components/menu.php'; ?>
     <!-- OffCanvas Cart Start -->
     <div id="offcanvas-cart" class="offcanvas offcanvas-cart">
         <div class="inner">
