@@ -6,7 +6,7 @@
                 <!-- Header Logo Start -->
                 <div class="col-auto">
                     <div class="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo_transparent_background.png" alt="" style="max-width:200px; max-height:150px;"></a>
+                        <a href="index.php"><img src="assets/images/logo/logo_transparent_background.png" alt="" style="max-width:200px; max-height:150px;"></a>
                     </div>
                 </div>
                 <!-- Header Logo End -->
@@ -15,11 +15,11 @@
                 <div class="col-auto me-auto">
                     <nav class="site-main-menu site-main-menu-left menu-height-100 justify-content-center">
                         <ul>
-                            <li class="Home"><a href="index.html"><span class="menu-text">Home</span></a></li>
-                            <li class="Chi Siamo"><a href="scopridipiu.html"><span class="menu-text">Chi Siamo</span></a></li>
-                            <li class="shop"><a href="spoiler.html"><span class="menu-text">CD Nuovi</span></a></li>
-                            <li class="uniti"><a href="unitiancheselontani.html"><span class="menu-text">#unitiancheselontani</span></a></li>
-                            <li class="preghiera"><a href="contattaci.html"><span class="menu-text">Richieste</span></a></li>
+                            <li class="Home"><a href="index.php"><span class="menu-text">Home</span></a></li>
+                            <li class="Chi Siamo"><a href="scopridipiu.php"><span class="menu-text">Chi Siamo</span></a></li>
+                            <li class="shop"><a href="spoiler.php"><span class="menu-text">CD Nuovi</span></a></li>
+                            <li class="uniti"><a href="unitiancheselontani.php"><span class="menu-text">#unitiancheselontani</span></a></li>
+                            <li class="preghiera"><a href="contattaci.php"><span class="menu-text">Richieste</span></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -48,7 +48,7 @@
                 <!-- Header Logo Start -->
                 <div class="col-xl-auto col">
                     <div class="header-logo">
-                    <a href="index.html"><img src="assets/images/logo/logo_transparent_background.png" alt="" style="max-width:200px; max-height:150px;"></a>
+                    <a href="index.php"><img src="assets/images/logo/logo_transparent_background.png" alt="" style="max-width:200px; max-height:150px;"></a>
                     </div>
                 </div>
                 <!-- Header Logo End -->
@@ -85,7 +85,7 @@
                 <!-- Header Logo Start -->
                 <div class="col">
                     <div class="header-logo">
-<a href="index.html"><img src="assets/images/logo/logo_transparent_background.png" alt="" style="max-width:200px; max-height:150px;"></a>                    </div>
+<a href="index.php"><img src="assets/images/logo/logo_transparent_background.png" alt="" style="max-width:200px; max-height:150px;"></a>                    </div>
                 </div>
                 <!-- Header Logo End -->
 
@@ -118,7 +118,7 @@
                 <!-- Header Logo Start -->
                 <div class="col">
                     <div class="header-logo">
-<a href="index.html"><img src="assets/images/logo/logo_transparent_background.png" alt="" style="max-width:200px; max-height:150px;"></a>                    </div>
+<a href="index.php"><img src="assets/images/logo/logo_transparent_background.png" alt="" style="max-width:200px; max-height:150px;"></a>                    </div>
                 </div>
                 <!-- Header Logo End -->
 
@@ -147,11 +147,11 @@
         <div class="inner customScroll">
             <div class="offcanvas-menu">
                         <ul>
-                            <li class="Home"><a href="index.html"><span class="menu-text">Home</span></a></li>
-                            <li class="Chi Siamo"><a href="scopridipiu.html"><span class="menu-text">Chi Siamo</span></a></li>
-                            <li class="shop"><a href="spoiler.html"><span class="menu-text">CD Nuovi</span></a></li>
-                            <li class="uniti"><a href="unitiancheselontani.html"><span class="menu-text">#unitiancheselontani</span></a></li>
-                            <li class="preghiera"><a href="contattaci.html"><span class="menu-text">Richieste</span></a></li>
+                            <li class="Home"><a href="index.php"><span class="menu-text">Home</span></a></li>
+                            <li class="Chi Siamo"><a href="scopridipiu.php"><span class="menu-text">Chi Siamo</span></a></li>
+                            <li class="shop"><a href="spoiler.php"><span class="menu-text">CD Nuovi</span></a></li>
+                            <li class="uniti"><a href="unitiancheselontani.php"><span class="menu-text">#unitiancheselontani</span></a></li>
+                            <li class="preghiera"><a href="contattaci.php"><span class="menu-text">Richieste</span></a></li>
                         </ul>
             </div>
             <div class="offcanvas-buttons">
