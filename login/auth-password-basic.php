@@ -34,12 +34,12 @@
                                             <!-- Form Group (submit options)-->
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
                                                 <a class="small" href="auth-login-basic.html">Ritorna al login</a>
-                                                <a class="btn btn-primary" href="auth-login-basic.html">Reset </a>
+                                                <a class="btn btn-primary" href="auth-login-basic.html">Resetta la password</a>
                                             </div>
                                         </form>
                                     </div>
                                     <div class="card-footer text-center">
-                                        <div class="small"><a href="auth-register-basic.html">Need an account? Sign up!</a></div>
+                                        <div class="small"><a href="auth-register-basic.php">Non hai un account? Registrati!</a></div>
                                     </div>
                                 </div>
                             </div>
