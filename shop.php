@@ -96,7 +96,7 @@
         <div class="inner customScroll">
             <div class="offcanvas-menu">
                         <ul>
-                            <li class="Home"><a href="index.php"><span class="menu-text">Home</span></a></li>
+                            <li class="Home"><a href="/"><span class="menu-text">Home</span></a></li>
                             <li class="Chi Siamo"><a href="scopridipiu.php"><span class="menu-text">Chi Siamo</span></a></li>
                             <li class="shop"><a href="spoiler.php"><span class="menu-text">CD Nuovi</span></a></li>
                             <li class="uniti"><a href="unitiancheselontani.php"><span class="menu-text">#unitiancheselontani</span></a></li>
@@ -132,7 +132,7 @@
                     <div class="page-title">
                         <h1 class="title">Shop</h1>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
                             <li class="breadcrumb-item active">Shop</li>
                         </ul>
                     </div>

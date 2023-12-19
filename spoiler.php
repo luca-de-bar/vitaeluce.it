@@ -66,7 +66,7 @@
                 <h1 class="title mb-5">Ci hai scoperto!</h1>
                 <p style="font-size: 20px;">Prossimamente, in questa sezione saranno disponibili i <strong>CD della missione Vita e Luce</strong>..ritorna su questa sezione tra un po'!</p>
                 <div class="buttons">
-                    <a class="btn btn-primary btn-outline-hover-dark" href="index.php">Torna al sito!</a>
+                    <a class="btn btn-primary btn-outline-hover-dark" href="/">Torna al sito!</a>
                 </div>
             </div>
         </div>

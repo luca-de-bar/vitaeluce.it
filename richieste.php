@@ -67,7 +67,7 @@
                     <div class="page-title">
                         <h1 class="title">Richieste di preghiera</h1>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
                             <li class="breadcrumb-item active">Richieste</li>
                         </ul>
                     </div>

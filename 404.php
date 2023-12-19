@@ -65,7 +65,7 @@
                 <h1 class="title mb-5">Ops! Ti sei perso?</h1>
                 <p style="font-size: 20px;">Sembra che tu ti sia perso! Ma non preoccuparti, Anche nella ricerca di Dio ci si può smarrire di tanto in tanto. Ti invitiamo a tornare alla pagina principale di Vita e Luce e a continuare a cercare la guida del Signore (Ah giusto, la pagina che hai cercato non esiste!)</p>
                 <div class="buttons">
-                    <a class="btn btn-primary btn-outline-hover-dark" href="index.php">Torna al sito!</a>
+                    <a class="btn btn-primary btn-outline-hover-dark" href="/">Torna al sito!</a>
                 </div>
             </div>
         </div>
