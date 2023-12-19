@@ -71,6 +71,9 @@
             </div>
         </div>
     </div>
+
+
+<?php include 'components/footer.php'?>
     <!-- 404 Section End -->
     <!-- JS
 ============================================ -->
