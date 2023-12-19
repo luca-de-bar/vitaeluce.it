@@ -1,7 +1,7 @@
 const verses = [
-    { title: "Salmi 91:15", text: "Egli m'invocherà, e io gli risponderò; sarò con lui nei momenti difficili; lo libererò, e lo glorificherò." },
-    { title: "Salmo 23:1", text: "Il Signore è il mio pastore, nulla mi manca." },
-    { title: "Isaia 43:25", text: "Io, io, sono colui che per amor di me stesso cancello le tue trasgressioni e non mi ricorderò più dei tuoi peccati" },
+    {title: "Salmi 91:15", text: "Egli m'invocherà, e io gli risponderò; sarò con lui nei momenti difficili; lo libererò, e lo glorificherò." },
+    {title: "Salmo 23:1", text: "Il Signore è il mio pastore, nulla mi manca." },
+    {title: "Isaia 43:25", text: "Io, io, sono colui che per amor di me stesso cancello le tue trasgressioni e non mi ricorderò più dei tuoi peccati" },
     {title: "Luca 6:37", text:"Non giudicate e non sarete giudicati; non condannate e non sarete condannati; perdonate e vi sarà perdonato."},
     {title: "Salmi 119:9", text: "Come potrà il giovane rendere pura la sua via? Badando a essa mediante la tua parola."},
     {title: "Salmi 108:3", text: "Ti celebrerò tra i popoli, o Signore, e a te salmeggerò fra le nazioni."},
