@@ -205,6 +205,11 @@ strong,a{
     font-size: 20px !important;
 }
 
+.relative
+{
+    position: relative;
+}
+
 .footer2-section
 {
     position: absolute;
