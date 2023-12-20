@@ -210,8 +210,8 @@ strong,a{
     position: relative;
 }
 
-.footer2-section
+.footer2-copyright section
 {
     position: absolute;
-    bottom: 0px;
+    bottom: 1px;
 }
