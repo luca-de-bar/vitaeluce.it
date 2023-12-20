@@ -91,38 +91,6 @@
     </div>
     <!-- OffCanvas Cart End -->
 
-    <!-- OffCanvas Search Start -->
-    <div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
-        <div class="inner customScroll">
-            <div class="offcanvas-menu">
-                        <ul>
-                            <li class="Home"><a href="/"><span class="menu-text">Home</span></a></li>
-                            <li class="Chi Siamo"><a href="scopridipiu.php"><span class="menu-text">Chi Siamo</span></a></li>
-                            <li class="shop"><a href="spoiler.php"><span class="menu-text">CD Nuovi</span></a></li>
-                            <li class="uniti"><a href="unitiancheselontani.php"><span class="menu-text">#unitiancheselontani</span></a></li>
-                            <li class="preghiera"><a href="contattaci.php"><span class="menu-text">Richieste</span></a></li>
-                        </ul>
-            </div>
-            <div class="offcanvas-buttons">
-                <div class="header-tools">
-                    <div class="header-cart">
-                        <a href="carrello.php"><span class="cart-count">1</span><i class="fal fa-shopping-cart"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="offcanvas-social">
-                <a href="https://www.facebook.com/adimezoff/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-<a href="https://www.instagram.com/adi_mez_off/" target="_blank"><i class="fab fa-instagram"></i></a>                <a href="https://www.youtube.com/@adi_mez_off" target="_blank"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </div>
-    <!-- OffCanvas Search End -->
-
-    <div class="offcanvas-overlay"></div>
-
-    <div class="offcanvas-overlay"></div>
-
     <!-- Page Title/Header Start -->
     <div class="page-title-section section" data-bg-image="assets/images/bg/page-title-1.webp">
         <div class="container">
