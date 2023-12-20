@@ -1,5 +1,4 @@
 <footer>
-   <div class="relative"> 
     <div class="footer2-section section section-padding">
         <div class="container">
             <div class="row learts-mb-n40">
@@ -26,5 +25,4 @@
             <p class="copyright text-center">&copy; 2024 | Made with <i class="far fa-heart"></i> in Verona</p>
         </div>
     </div>
-  </div>
 </footer>
