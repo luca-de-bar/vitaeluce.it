@@ -16,6 +16,7 @@
                     <nav class="site-main-menu site-main-menu-left menu-height-100 justify-content-center">
                         <ul>
                             <li class="Home"><a href="/"><span class="menu-text">Home</span></a></li>
+                            <li class="Eventi"><a href="eventi.php"><span class="menu-text">Eventi</span></a></li>
                             <li class="Chi Siamo"><a href="chi-siamo.php"><span class="menu-text">Chi Siamo</span></a></li>
                             <li class="shop"><a href="spoiler.php"><span class="menu-text">CD Nuovi</span></a></li>
                             <li class="scuola"><a href="scuola-domenicale.php"><span class="menu-text">Scuola Domenicale</span></a></li>
